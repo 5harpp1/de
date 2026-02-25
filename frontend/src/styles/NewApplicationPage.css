@@ -1,0 +1,68 @@
+.new-application-page {
+  min-height: 100vh;
+  color: #ffffff;
+}
+
+.new-application-page h2 {
+  text-align: center;
+  margin: 24px 0;
+}
+
+.new-application-form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 24px 20px 32px;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.new-application-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 14px;
+}
+
+.new-application-form input,
+.new-application-form select {
+  padding: 8px 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.new-application-form button {
+  margin-top: 8px;
+  padding: 10px 16px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  background: #ffb300;
+  color: #000;
+  font-weight: 600;
+}
+
+.new-application-form button:hover {
+  background: #ffca3a;
+}
+
+.new-application-page .error {
+  max-width: 500px;
+  margin: 0 auto 16px;
+  padding: 10px 14px;
+  border-radius: 8px;
+  background: #ff4d4f;
+  color: #fff;
+}
+
+.new-application-page .success {
+  max-width: 500px;
+  margin: 0 auto 16px;
+  padding: 10px 14px;
+  border-radius: 8px;
+  background: #4caf50;
+  color: #fff;
+}

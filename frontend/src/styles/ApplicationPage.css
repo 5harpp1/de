@@ -1,0 +1,41 @@
+.applications-page {
+  min-height: 100vh;
+  color: #ffffff;
+}
+
+.applications-page h2 {
+  text-align: center;
+  margin: 24px 0;
+}
+
+.applications-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.application-item {
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  padding: 16px 20px;
+  margin-bottom: 12px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 8px;
+}
+h2{
+    color: black
+}
+.application-item div {
+  font-size: 14px;
+}
+
+.applications-page .error {
+  max-width: 1200px;
+  margin: 0 auto 16px;
+  padding: 10px 14px;
+  border-radius: 8px;
+  background: #ff4d4f;
+  color: #fff;
+}
